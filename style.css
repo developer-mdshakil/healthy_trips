@@ -100,3 +100,29 @@ section {
     color: #a9a4a4;
     margin-bottom: 50px;
 }
+/** service-items **/
+.service-items{
+    display: flex;
+}
+#service-box {
+    width: 33% !important;
+    box-shadow: 4px 4px 20px #bdb5b5;
+    margin-left: 19px;
+    margin-right: 19px;
+    padding: 2%;
+    border-radius: 25px;
+}
+.service-body img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.service-content h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service-content p {
+    font-size: 14px;
+    color: #b1abab;
+}
