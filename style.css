@@ -1,0 +1,53 @@
+/********** common css ***********/
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,a,span,strong{
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    margin-bottom: 100px;
+}
+/*********** flex-content *********/
+.flex-content{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.half-width span{
+    color: #FBA24F;
+}
+.half-width p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 37px;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ff5200;
+    padding: 11px 19px;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 2px 2px 7px #d3d1d1;
+}
+.half-width img{
+    width: 80%;
+}
+/********** about-section ***********/
+.about-section{
+    background-image: url(images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/************* service-section ************/
