@@ -163,3 +163,25 @@ section {
 .follow-comment p {
     font-size: 15px;
 }
+footer{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 4% 0%;
+}
+footer strong {
+    display: block;
+    color: #666;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+footer span {
+    display: inline-block;
+    color: #ff5200;
+}
+footer p {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+}
