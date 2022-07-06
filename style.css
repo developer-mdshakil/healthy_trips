@@ -7,7 +7,7 @@ body,h1,h2,h3,h4,h5,h6,a,span,strong{
     font-family: 'Poppins', sans-serif;
 }
 section {
-    margin-bottom: 30px;
+    margin-bottom: 90px;
 }
 /*********** flex-content *********/
 .flex-content{
@@ -125,4 +125,41 @@ section {
 .service-content p {
     font-size: 14px;
     color: #b1abab;
+}
+/*************** follower-section **************/
+.follow-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.follow-title h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.follow-title p {
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 305px;
+    color: #666;
+}
+.follow-medias {
+    display: flex;
+    padding: inherit !important;
+    box-shadow: 4px 4px 20px rgb(180, 177, 177);
+    margin: 0% 4%;
+    border-radius: 10px;
+}
+.follow-comment{
+    display: block;
+    text-align: center;
+}
+.follow-comment h3 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.follow-comment p {
+    font-size: 15px;
 }
